@@ -11,13 +11,13 @@ const Leftbar = () => {
       } h-[100vh]  relative`} 
     >
       {/* logo  */}
-      <div className="h-[14vh]   flex items-center justify-center border-solid border-b-2 border-white">
+      <div className="h-[14vh]   flex items-center justify-center ">
         {/* this text need to change with logo icon or image */}
         {isCollapsed ? <img src={shortLogo} alt="" /> : <img src={fullLogo} alt="" />  }
       </div>
       {/* main menubar  */}
       <nav className="flex flex-col ">
-        <button className="text-xl font-bold  h-9 hover:bg-slate-400 text-start border-solid border-b-2 border-white">Home</button>
+        <button className="text-xl font-bold  h-9 hover:bg-slate-400 text-start border-solid border-b-2 border-white mt-2">Home</button>
         <button className="text-xl font-bold  h-9 hover:bg-slate-400 text-start border-b-1 border-white">Team</button>
         <button className="text-xl font-bold  h-9 hover:bg-slate-400 text-start border-solid border-b-2 border-white">Project Name</button>
         <button className="text-xl font-bold h-9 hover:bg-slate-400 text-start border-solid border-b-2 border-white">Current Projects</button>
